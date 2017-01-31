@@ -20,7 +20,7 @@
     "format": "ovf",
     "guest_additions_mode": "upload",
     "guest_os_type": "RedHat_64",
-    "headless": false,
+    "headless": true,
 
     "iso_url": "http://mirrors.coreix.net/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso",
     "iso_checksum_url": "http://mirrors.coreix.net/centos/7/isos/x86_64/sha256sum.txt",
@@ -48,7 +48,7 @@
   }],
 
   "post-processors": [{
-    "keep_input_artifact": true,
+    "keep_input_artifact": false,
     "output": "build/vagrant-{{user `name`}}.box",
     "type": "vagrant"
   }],
