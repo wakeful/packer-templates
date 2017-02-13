@@ -57,6 +57,7 @@
     "type": "shell",
     "scripts": [
       "provision/rhel-vagrant.sh",
+      "provision/rhel-update.sh",
       "provision/rhel-vbox-additions.sh",
       "provision/rhel-clean.sh",
       "provision/zero-disk.sh"
