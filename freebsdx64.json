@@ -62,6 +62,7 @@
     "scripts": [
       "provision/freebsd-vagrant.sh",
       "provision/freebsd-vbox-additions.sh",
+      "provision/freebsd-update.sh",
       "provision/freebsd-clean.sh",
       "provision/zero-disk.sh"
     ]
