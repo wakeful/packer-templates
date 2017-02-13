@@ -58,7 +58,8 @@
     "scripts": [
       "provision/rhel-vagrant.sh",
       "provision/rhel-vbox-additions.sh",
-      "provision/rhel-clean.sh"
+      "provision/rhel-clean.sh",
+      "provision/zero-disk.sh"
     ]
   }]
 }
