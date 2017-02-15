@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-adduser -G wheel vagrant
+groupadd vagrant
+useradd -g vagrant vagrant
 echo "vagrant ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/01_vagrant
 
 echo "root:vagrant" | chpasswd
