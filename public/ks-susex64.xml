@@ -278,4 +278,19 @@
       <username>root</username>
     </user>
   </users>
+  <scripts>
+    <post-scripts config:type="list">
+      <script>
+        <filename>post.sh</filename>
+        <interpreter>shell</interpreter>
+        <source><![CDATA[
+#!/bin/sh
+
+systemctl enable sshd
+systemctl start sshd
+]]>
+        </source>
+      </script>
+    </post-scripts>
+  </scripts>
 </profile>
