@@ -27,8 +27,8 @@
     "guest_os_type": "OpenSUSE_64",
     "headless": true,
 
-    "iso_url": "http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
-    "iso_checksum": "e741652e40971a04454b6bd722adb6aa699affce0e5e042f9fc8a991989273ed",
+    "iso_url": "http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Snapshot20170304-Media.iso",
+    "iso_checksum_url": "http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.sha256",
     "iso_checksum_type": "sha256",
 
     "http_directory": "public",
