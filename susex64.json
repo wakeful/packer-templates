@@ -62,6 +62,7 @@
     "type": "shell",
     "scripts": [
       "provision/linux-vagrant.sh",
+      "provision/suse-repo.sh",
       "provision/zero-disk.sh"
     ]
   }]
